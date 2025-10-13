@@ -2,6 +2,12 @@ name: SUID
 challenges:
     - id: cat
       name: cat
+    - id: diff
+      name: diff
+    - id: chmod
+      name: chmod
+    - id: chown
+      name: chown
     - id: dash
       name: dash
     - id: bash
@@ -16,5 +22,3 @@ challenges:
       name: cp
     - id: mv
       name: mv
-    - id: diff
-      name: diff
