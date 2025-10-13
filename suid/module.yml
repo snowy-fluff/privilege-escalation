@@ -2,5 +2,7 @@ name: SUID
 challenges:
     - id: cat
       name: cat
+    - id: cp
+      name: cp
     - id: su
       name: su
