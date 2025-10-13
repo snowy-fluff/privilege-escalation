@@ -1,0 +1,10 @@
+#!/bin/bash
+
+rm /challenge/.init
+find -L /challenge -type f -exec chmod 0444 {} +
+
+sed -i '1d' /etc/shadow
+sed -i '1i root::::::::' /etc/shadow
+chmod 640 /etc/shadow
+chown root:shadow /etc/shadow
+chmod u+s /usr/bin/su
