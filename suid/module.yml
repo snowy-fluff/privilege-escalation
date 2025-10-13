@@ -1,0 +1,4 @@
+name: SUID
+challenges:
+    - id: cat
+      name: cat

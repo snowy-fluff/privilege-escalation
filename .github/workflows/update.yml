@@ -8,5 +8,5 @@ jobs:
     steps:
       - uses: pwncollege/dojo-update@v1
         with:
-          dojo: example
+          dojo: privilege-escalation~6d04fe7a
           update_code: ${{ secrets.UPDATE_CODE }}
