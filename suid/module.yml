@@ -4,5 +4,9 @@ challenges:
       name: cat
     - id: cp
       name: cp
+    - id: mv
+      name: mv
+    - id: diff
+      name: diff
     - id: su
       name: su
