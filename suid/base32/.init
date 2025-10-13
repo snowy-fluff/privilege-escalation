@@ -1,6 +1,0 @@
-#!/bin/bash
-
-rm /challenge/.init
-find -L /challenge -type f -exec chmod 0444 {} +
-
-chmod u+s /usr/bin/base32

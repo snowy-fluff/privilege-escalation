@@ -8,20 +8,14 @@ challenges:
       name: as
     - id: awk
       name: awk
-    - id: base32
-      name: base32
     - id: base64
       name: base64
     - id: bash
       name: bash
     - id: batcat
       name: batcat
-    - id: bunzip2
-      name: bunzip2
     - id: busctl
       name: busctl
-    - id: bzcat
-      name: bzcat
     - id: bzip2
       name: bzip2
     - id: cat
