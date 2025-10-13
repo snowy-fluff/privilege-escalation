@@ -30,10 +30,14 @@ challenges:
       name: chgrp
     - id: chmod
       name: chmod
+    - id: choom
+      name: choom
     - id: chown
       name: chown
     - id: cmp
       name: cmp
+    - id: column
+      name: column
     - id: cp
       name: cp
     - id: dash
