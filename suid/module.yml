@@ -48,6 +48,8 @@ challenges:
       name: diff
     - id: fish
       name: fish
+    - id: gdb
+      name: gdb
     - id: mv
       name: mv
     - id: su
