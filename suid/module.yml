@@ -22,10 +22,8 @@ challenges:
       name: busctl
     - id: bzcat
       name: bzcat
-    - id: bzcmp
-      name: bzcmp
-    - id: bzdiff
-      name: bzdiff
+    - id: bzip2
+      name: bzip2
     - id: cat
       name: cat
     - id: chgrp
@@ -34,6 +32,8 @@ challenges:
       name: chmod
     - id: chown
       name: chown
+    - id: cmp
+      name: cmp
     - id: cp
       name: cp
     - id: dash
