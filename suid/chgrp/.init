@@ -4,4 +4,7 @@ rm /challenge/.init
 find -L /challenge -type f -exec chmod 0444 {} +
 
 chmod 440 /flag
+mkdir -p /challenge/bin
+ln -sf /usr/bin/chgrp /challenge/bin/chgrp
+
 chmod u+s /usr/bin/chgrp

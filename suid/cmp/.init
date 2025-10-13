@@ -3,4 +3,7 @@
 rm /challenge/.init
 find -L /challenge -type f -exec chmod 0444 {} +
 
+mkdir -p /challenge/bin
+ln -sf /usr/bin/cmp /challenge/bin/cmp
+
 chmod u+s /usr/bin/cmp

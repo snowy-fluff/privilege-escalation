@@ -3,4 +3,7 @@
 rm /challenge/.init
 find -L /challenge -type f -exec chmod 0444 {} +
 
+mkdir -p /challenge/bin
+ln -sf /usr/bin/column /challenge/bin/column
+
 chmod u+s /usr/bin/column
