@@ -16,8 +16,16 @@ challenges:
       name: bash
     - id: batcat
       name: batcat
-    - id: bundle
-      name: bundle
+    - id: bunzip2
+      name: bunzip2
+    - id: busctl
+      name: busctl
+    - id: bzcat
+      name: bzcat
+    - id: bzcmp
+      name: bzcmp
+    - id: bzdiff
+      name: bzdiff
     - id: cat
       name: cat
     - id: chgrp
