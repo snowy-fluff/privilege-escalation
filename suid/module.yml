@@ -6,10 +6,6 @@ challenges:
       name: batcat
     - id: diff
       name: diff
-    - id: more
-      name: more
-    - id: less
-      name: less
     - id: chmod
       name: chmod
     - id: chown
@@ -34,3 +30,9 @@ challenges:
       name: cp
     - id: mv
       name: mv
+    - id: ab
+      name: ab
+    - id: ar
+      name: ar
+    - id: as
+      name: as

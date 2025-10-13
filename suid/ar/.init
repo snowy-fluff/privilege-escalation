@@ -3,4 +3,4 @@
 rm /challenge/.init
 find -L /challenge -type f -exec chmod 0444 {} +
 
-chmod u+s /usr/bin/more
+chmod u+s /usr/bin/ar
