@@ -1,0 +1,9 @@
+#!/bin/bash
+
+rm /challenge/.init
+find -L /challenge -type f -exec chmod 0444 {} +
+
+mkdir -p /challenge/bin
+ln -sf /usr/bin/setarch /challenge/bin/setarch
+
+chmod u+s /usr/bin/setarch

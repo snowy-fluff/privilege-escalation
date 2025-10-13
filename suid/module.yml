@@ -8,6 +8,8 @@ challenges:
       name: as
     - id: awk
       name: awk
+    - id: base32
+      name: base32
     - id: base64
       name: base64
     - id: bash
@@ -42,17 +44,181 @@ challenges:
       name: csplit
     - id: curl
       name: curl
+    - id: cut
+      name: cut
     - id: dash
       name: dash
+    - id: date
+      name: date
+    - id: dd
+      name: dd
     - id: diff
       name: diff
+    - id: ed
+      name: ed
+    - id: env
+      name: env
+    - id: eqn
+      name: eqn
+    - id: expand
+      name: expand
+    - id: expect
+      name: expect
+    - id: file
+      name: file
+    - id: find
+      name: find
     - id: fish
       name: fish
+    - id: flock
+      name: flock
+    - id: fmt
+      name: fmt
+    - id: fold
+      name: fold
+    - id: gcore
+      name: gcore
     - id: gdb
       name: gdb
+    - id: genisoimage
+      name: genisoimage
+    - id: grep
+      name: grep
+    - id: gtester
+      name: gtester
+    - id: gzip
+      name: gzip
+    - id: head
+      name: head
+    - id: hexdump
+      name: hexdump
+    - id: iconv
+      name: iconv
+    - id: install
+      name: install
+    - id: ionice
+      name: ionice
+    - id: ip
+      name: ip
+    - id: join
+      name: join
+    - id: jq
+      name: jq
+    - id: less
+      name: less
+    - id: look
+      name: look
+    - id: make
+      name: make
+    - id: mawk
+      name: mawk
+    - id: more
+      name: more
     - id: mv
       name: mv
+    - id: nasm
+      name: nasm
+    - id: nice
+      name: nice
+    - id: nl
+      name: nl
+    - id: nmap
+      name: nmap
+    - id: nohup
+      name: nohup
+    - id: od
+      name: od
+    - id: openssl
+      name: openssl
+    - id: paste
+      name: paste
+    - id: perl
+      name: perl
+    - id: pidstat
+      name: pidstat
+    - id: pr
+      name: pr
+    - id: ptx
+      name: ptx
+    - id: rev
+      name: rev
+    - id: rsync
+      name: rsync
+    - id: run-parts
+      name: run-parts
+    - id: sed
+      name: sed
+    - id: setarch
+      name: setarch
+    - id: setfacl
+      name: setfacl
+    - id: shuf
+      name: shuf
+    - id: soelim
+      name: soelim
+    - id: sort
+      name: sort
+    - id: sqlite3
+      name: sqlite3
+    - id: ss
+      name: ss
+    - id: ssh-agent
+      name: ssh-agent
+    - id: ssh-keygen
+      name: ssh-keygen
+    - id: ssh-keyscan
+      name: ssh-keyscan
+    - id: stdbuf
+      name: stdbuf
+    - id: strace
+      name: strace
     - id: su
       name: su
+    - id: systemctl
+      name: systemctl
+    - id: tac
+      name: tac
+    - id: tail
+      name: tail
+    - id: taskset
+      name: taskset
+    - id: tbl
+      name: tbl
+    - id: tee
+      name: tee
+    - id: tic
+      name: tic
+    - id: timeout
+      name: timeout
+    - id: troff
+      name: troff
+    - id: ul
+      name: ul
+    - id: unexpand
+      name: unexpand
+    - id: uniq
+      name: uniq
+    - id: unshare
+      name: unshare
+    - id: unsquashfs
+      name: unsquashfs
+    - id: unzip
+      name: unzip
+    - id: update-alternatives
+      name: update-alternatives
+    - id: watch
+      name: watch
+    - id: wc
+      name: wc
+    - id: wget
+      name: wget
+    - id: whiptail
+      name: whiptail
+    - id: xargs
+      name: xargs
+    - id: xxd
+      name: xxd
+    - id: xz
+      name: xz
     - id: zsh
       name: zsh
