@@ -40,6 +40,8 @@ challenges:
       name: column
     - id: cp
       name: cp
+    - id: cpio
+      name: cpio
     - id: dash
       name: dash
     - id: diff
