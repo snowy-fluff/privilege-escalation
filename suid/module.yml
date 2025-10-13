@@ -32,10 +32,16 @@ challenges:
       name: cmp
     - id: column
       name: column
+    - id: comm
+      name: comm
     - id: cp
       name: cp
     - id: cpio
       name: cpio
+    - id: csplit
+      name: csplit
+    - id: curl
+      name: curl
     - id: dash
       name: dash
     - id: diff
