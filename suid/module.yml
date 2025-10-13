@@ -16,6 +16,8 @@ challenges:
       name: bash
     - id: batcat
       name: batcat
+    - id: bundle
+      name: bundle
     - id: cat
       name: cat
     - id: chgrp
