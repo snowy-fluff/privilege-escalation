@@ -2,11 +2,19 @@ name: SUID
 challenges:
     - id: cat
       name: cat
+    - id: dash
+      name: dash
+    - id: bash
+      name: bash
+    - id: zsh
+      name: zsh
+    - id: fish
+      name: fish
+    - id: su
+      name: su
     - id: cp
       name: cp
     - id: mv
       name: mv
     - id: diff
       name: diff
-    - id: su
-      name: su
