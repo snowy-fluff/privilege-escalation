@@ -1,6 +1,10 @@
 id: privilege-escalation
 name: Privilege Escalation
 type: public
+description: |
+  Welcome to the Privilege Escalation dojo! This dojo will teach you all about privilege escalation, from simple programs with an suid bit up to exploiting real world CVEs!
+  
+  This dojo is currenly in development. To contribute, please visit the [GitHub repository](https://github.com/snowy-fluff/privilege-escalation)
 award:
     emoji: 🪪
 image: pwncollege/challenge-legacy:latest
