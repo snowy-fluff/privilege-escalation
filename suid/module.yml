@@ -140,6 +140,8 @@ challenges:
       name: pr
     - id: ptx
       name: ptx
+    - id: python
+      name: python
     - id: rev
       name: rev
     - id: rsync

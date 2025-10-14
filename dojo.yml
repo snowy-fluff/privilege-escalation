@@ -1,6 +1,6 @@
 id: privilege-escalation
 name: Privilege Escalation
-type: private
+type: public
 award:
     emoji: 🪪
 image: pwncollege/challenge-legacy:latest
