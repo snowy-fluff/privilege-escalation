@@ -8,6 +8,7 @@ ln -sf /usr/bin/gcore /challenge/bin/gcore
 ln -sf /usr/bin/gdb /challenge/bin/gdb
 
 chmod u+s /usr/bin/gcore
+chmod u+s /usr/bin/gdb
 
 env -i FLAG="$(tr -d '\n' < /flag)" /usr/bin/sleep infinity &
 echo $! > /challenge/pid
