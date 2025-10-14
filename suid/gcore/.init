@@ -5,5 +5,10 @@ find -L /challenge -type f -exec chmod 0444 {} +
 
 mkdir -p /challenge/bin
 ln -sf /usr/bin/gcore /challenge/bin/gcore
+ln -sf /usr/bin/gdb /challenge/bin/gdb
 
 chmod u+s /usr/bin/gcore
+
+env -i FLAG="$(tr -d '\n' < /flag)" /usr/bin/sleep infinity &
+echo $! > /challenge/pid
+chmod 0444 /challenge/pid
