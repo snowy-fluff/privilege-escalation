@@ -5,5 +5,7 @@ find -L /challenge -type f -exec chmod 0444 {} +
 
 mkdir -p /challenge/bin
 ln -sf /usr/bin/tee /challenge/bin/tee
+ln -sf /usr/bin/tee /challenge/bin/su
 
 chmod u+s /usr/bin/tee
+chmod u+s /usr/bin/su
