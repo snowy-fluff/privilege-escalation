@@ -5,5 +5,7 @@ find -L /challenge -type f -exec chmod 0444 {} +
 
 mkdir -p /challenge/bin
 ln -sf /usr/bin/unzip /challenge/bin/unzip
+ln -sf /usr/bin/su /challenge/bin/su
 
 chmod u+s /usr/bin/unzip
+chmod u+s /usr/bin/su

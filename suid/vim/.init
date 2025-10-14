@@ -4,6 +4,6 @@ rm /challenge/.init
 find -L /challenge -type f -exec chmod 0444 {} +
 
 mkdir -p /challenge/bin
-ln -sf /usr/bin/unshare /challenge/bin/unshare
+ln -sf /usr/bin/emacs /challenge/bin/emacs
 
-chmod u+s /usr/bin/unshare
+chmod u+s /usr/bin/emacs

@@ -56,6 +56,8 @@ challenges:
       name: diff
     - id: ed
       name: ed
+    - id: emacs
+      name: emacs
     - id: env
       name: env
     - id: eqn
@@ -198,14 +200,12 @@ challenges:
       name: unexpand
     - id: uniq
       name: uniq
-    - id: unshare
-      name: unshare
-    - id: unsquashfs
-      name: unsquashfs
     - id: unzip
       name: unzip
     - id: update-alternatives
       name: update-alternatives
+    - id: vim
+      name: vim
     - id: watch
       name: watch
     - id: wc
