@@ -176,8 +176,6 @@ challenges:
       name: strace
     - id: su
       name: su
-    - id: systemctl
-      name: systemctl
     - id: tac
       name: tac
     - id: tail
