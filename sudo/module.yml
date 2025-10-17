@@ -1,0 +1,4 @@
+name: Sudo
+challenges:
+    - id: tar
+      name: tar
