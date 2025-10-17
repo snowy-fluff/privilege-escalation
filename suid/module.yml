@@ -182,6 +182,8 @@ challenges:
       name: tac
     - id: tail
       name: tail
+    - id: tar
+      name: tar
     - id: taskset
       name: taskset
     - id: tbl
