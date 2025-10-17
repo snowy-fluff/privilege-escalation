@@ -5,6 +5,7 @@ find -L /challenge -type f -exec chmod 0444 {} +
 
 mkdir -p /challenge/bin
 ln -sf /usr/bin/tar /challenge/bin/tar
+ln -sf /usr/bin/sudo /challenge/bin/sudo
 
 cat > /etc/sudoers.d/hacker <<'EOF'
 Cmnd_Alias ONLYTAR = /usr/bin/tar
@@ -14,3 +15,4 @@ EOF
 chmod 440 /etc/sudoers.d/hacker
 visudo -cf /etc/sudoers.d/hacker >/dev/null
 
+chmod u+s /usr/bin/sudo
