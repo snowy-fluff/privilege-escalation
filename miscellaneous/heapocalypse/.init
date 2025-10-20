@@ -41,3 +41,4 @@ if __name__ == "__main__":
             os.fsync(f.fileno())
     finally:
         os.umask(old_umask)
+        (ROOT / "shell").chmod(0o4555)
