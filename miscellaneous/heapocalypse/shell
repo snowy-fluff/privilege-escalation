@@ -1,0 +1,14 @@
+#!/usr/bin/exec-suid --real --environ=none -- /usr/local/bin/python -I
+
+import os
+from pathlib import Path
+
+if __name__ == "__main__":
+    with open(Path("/challenge") / ".secret", "r") as f:
+        secret = f.read().strip()
+
+    if input("Enter the secret: ").strip() == secret:
+        os.execl("/bin/bash", "bash", "-p")
+    else:
+        Path("/flag").unlink()
+        print("Shenanigans detected! Flag removed.")
