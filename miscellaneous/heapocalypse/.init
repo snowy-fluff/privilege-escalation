@@ -5,31 +5,26 @@ import os
 import random
 import stat
 import string
+from pathlib import Path
 
-ROOT = "/challenge"
+ROOT = Path("/challenge")
 LENGTH = 2**6
 
 if __name__ == "__main__":
-    try:
-        os.remove(os.path.join(ROOT, ".init"))
-    except FileNotFoundError:
-        pass
+    (ROOT / ".init").unlink()
 
-    for root, dirs, files in os.walk(ROOT, topdown=True, followlinks=True):
+    for root, dirs, files in os.walk(str(ROOT), topdown=True, followlinks=True):
         for name in files:
-            p = os.path.join(root, name)
+            p = Path(root) / name
             try:
-                st = os.stat(p)
-                if stat.S_ISREG(st.st_mode):
+                if stat.S_ISREG(os.stat(p).st_mode):
                     os.chmod(p, 0o444)
             except Exception:
                 continue
 
     rnd = random.Random(
         int.from_bytes(
-            hashlib.sha256(
-                open("/flag", "r", encoding="utf-8").read().strip().encode()
-            ).digest(),
+            hashlib.sha256(Path("/flag").read_text().strip().encode()).digest(),
             "big",
         )
     )
@@ -39,10 +34,10 @@ if __name__ == "__main__":
 
     try:
         old_umask = os.umask(0o377)
-        with open(os.path.join(ROOT, ".secret"), "w", encoding="utf-8") as f:
+
+        with open(ROOT / ".secret", "w", encoding="utf-8") as f:
             f.write(secret)
             f.flush()
             os.fsync(f.fileno())
     finally:
         os.umask(old_umask)
-        os.chmod("/challenge/shell", 0o444)
