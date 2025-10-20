@@ -1,1 +1,0 @@
-The heap has fallen. Billions must dump!!!
