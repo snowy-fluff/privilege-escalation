@@ -1,0 +1,3 @@
+Welcome to the Privilege Escalation dojo! This dojo will teach you all about privilege escalation, from simple programs with an suid bit up to exploiting real world CVEs!
+
+This dojo is currently in development. To contribute, please visit the [GitHub repository](https://github.com/snowy-fluff/privilege-escalation)
