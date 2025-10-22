@@ -1,4 +1,6 @@
 name: Sudo
 challenges:
+    - id: sudo
+      name: sudo
     - id: tar
       name: tar

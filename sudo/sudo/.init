@@ -4,11 +4,10 @@ rm /challenge/.init
 find -L /challenge -type f -exec chmod 0444 {} +
 
 mkdir -p /challenge/bin
-ln -sf /usr/bin/tar /challenge/bin/tar
 ln -sf /usr/bin/sudo /challenge/bin/sudo
 
 cat > /etc/sudoers.d/hacker <<'EOF'
-hacker ALL=(root) NOPASSWD: /usr/bin/tar
+hacker ALL=(root) NOPASSWD: /usr/bin/sudo
 EOF
 
 chmod 440 /etc/sudoers.d/hacker
