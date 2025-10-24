@@ -187,7 +187,7 @@ challenges:
       name: jrunscript
     - id: ksh
       name: ksh
-    - id: ld.so
+    - id: ld_so
       name: ld.so
     - id: less
       name: less
@@ -197,8 +197,8 @@ challenges:
       name: logsave
     - id: look
       name: look
-    - id: lua5.4
-      name: lua5.4
+    - id: lua
+      name: lua
     - id: make
       name: make
     - id: mawk

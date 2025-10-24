@@ -4,6 +4,6 @@ rm /challenge/.init
 find -L /challenge -type f -exec chmod 0444 {} +
 
 mkdir -p /challenge/bin
-ln -sf /usr/bin/lua5.4 /challenge/bin/lua5.4
+ln -sf /usr/bin/lua /challenge/bin/lua
 
-chmod u+s /usr/bin/lua5.4
+chmod u+s /usr/bin/lua
