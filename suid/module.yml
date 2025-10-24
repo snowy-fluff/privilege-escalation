@@ -187,8 +187,8 @@ challenges:
       name: jrunscript
     - id: ksh
       name: ksh
-    - id: ld_so
-      name: ld_so
+    - id: ld.so
+      name: ld-so
     - id: less
       name: less
     - id: links
