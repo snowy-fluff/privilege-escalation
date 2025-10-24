@@ -1,0 +1,9 @@
+#!/bin/bash
+
+rm /challenge/.init
+find -L /challenge -type f -exec chmod 0444 {} +
+
+mkdir -p /challenge/bin
+ln -sf /usr/bin/rlwrap /challenge/bin/rlwrap
+
+chmod u+s /usr/bin/rlwrap

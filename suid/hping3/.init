@@ -1,0 +1,9 @@
+#!/bin/bash
+
+rm /challenge/.init
+find -L /challenge -type f -exec chmod 0444 {} +
+
+mkdir -p /challenge/bin
+ln -sf /usr/bin/hping3 /challenge/bin/hping3
+
+chmod u+s /usr/bin/hping3

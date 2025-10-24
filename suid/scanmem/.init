@@ -1,0 +1,9 @@
+#!/bin/bash
+
+rm /challenge/.init
+find -L /challenge -type f -exec chmod 0444 {} +
+
+mkdir -p /challenge/bin
+ln -sf /usr/bin/scanmem /challenge/bin/scanmem
+
+chmod u+s /usr/bin/scanmem

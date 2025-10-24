@@ -1,0 +1,9 @@
+#!/bin/bash
+
+rm /challenge/.init
+find -L /challenge -type f -exec chmod 0444 {} +
+
+mkdir -p /challenge/bin
+ln -sf /usr/bin/restic /challenge/bin/restic
+
+chmod u+s /usr/bin/restic

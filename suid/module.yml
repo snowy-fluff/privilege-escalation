@@ -1,25 +1,58 @@
 name: SUID
+image: pwmcollege/challenge-suid
 challenges:
+    - id: aa-exec
+      name: aa-exec
     - id: ab
       name: ab
+    - id: agetty
+      name: agetty
+    - id: alpine
+      name: alpine
     - id: ar
       name: ar
+    - id: arj
+      name: arj
+    - id: arp
+      name: arp
     - id: as
       name: as
+    - id: ascii-xfr
+      name: ascii-xfr
+    - id: ash
+      name: ash
+    - id: aspell
+      name: aspell
+    - id: atobm
+      name: atobm
     - id: awk
       name: awk
     - id: base32
       name: base32
     - id: base64
       name: base64
+    - id: basenc
+      name: basenc
+    - id: basez
+      name: basez
     - id: bash
       name: bash
     - id: batcat
       name: batcat
+    - id: bc
+      name: bc
+    - id: bridge
+      name: bridge
     - id: busctl
       name: busctl
+    - id: busybox
+      name: busybox
     - id: bzip2
       name: bzip2
+    - id: cabal
+      name: cabal
+    - id: capsh
+      name: capsh
     - id: cat
       name: cat
     - id: chgrp
@@ -30,6 +63,10 @@ challenges:
       name: choom
     - id: chown
       name: chown
+    - id: chroot
+      name: chroot
+    - id: clamscan
+      name: clamscan
     - id: cmp
       name: cmp
     - id: column
@@ -40,8 +77,16 @@ challenges:
       name: cp
     - id: cpio
       name: cpio
+    - id: cpulimit
+      name: cpulimit
+    - id: csh
+      name: csh
     - id: csplit
       name: csplit
+    - id: csvtool
+      name: csvtool
+    - id: cupsfilter
+      name: cupsfilter
     - id: curl
       name: curl
     - id: cut
@@ -52,16 +97,34 @@ challenges:
       name: date
     - id: dd
       name: dd
+    - id: debugfs
+      name: debugfs
+    - id: dialog
+      name: dialog
     - id: diff
       name: diff
+    - id: dig
+      name: dig
+    - id: distcc
+      name: distcc
+    - id: dmsetup
+      name: dmsetup
+    - id: dosbox
+      name: dosbox
     - id: ed
       name: ed
+    - id: efax
+      name: efax
+    - id: elvish
+      name: elvish
     - id: emacs
       name: emacs
     - id: env
       name: env
     - id: eqn
       name: eqn
+    - id: espeak
+      name: espeak
     - id: expand
       name: expand
     - id: expect
@@ -78,22 +141,32 @@ challenges:
       name: fmt
     - id: fold
       name: fold
+    - id: gawk
+      name: gawk
     - id: gcore
       name: gcore
     - id: gdb
       name: gdb
     - id: genisoimage
       name: genisoimage
+    - id: gimp
+      name: gimp
     - id: grep
       name: grep
     - id: gtester
       name: gtester
     - id: gzip
       name: gzip
+    - id: hd
+      name: hd
     - id: head
       name: head
     - id: hexdump
       name: hexdump
+    - id: highlight
+      name: highlight
+    - id: hping3
+      name: hping3
     - id: iconv
       name: iconv
     - id: install
@@ -102,40 +175,96 @@ challenges:
       name: ionice
     - id: ip
       name: ip
+    - id: ispell
+      name: ispell
+    - id: jjs
+      name: jjs
     - id: join
       name: join
     - id: jq
       name: jq
+    - id: jrunscript
+      name: jrunscript
+    - id: ksh
+      name: ksh
+    - id: ld.so
+      name: ld.so
     - id: less
       name: less
+    - id: links
+      name: links
+    - id: logsave
+      name: logsave
     - id: look
       name: look
+    - id: lua5.4
+      name: lua5.4
     - id: make
       name: make
     - id: mawk
       name: mawk
+    - id: minicom
+      name: minicom
     - id: more
       name: more
+    - id: mosquitto
+      name: mosquitto
+    - id: msgattrib
+      name: msgattrib
+    - id: msgcat
+      name: msgcat
+    - id: msgconv
+      name: msgconv
+    - id: msgfilter
+      name: msgfilter
+    - id: msgmerge
+      name: msgmerge
+    - id: msguniq
+      name: msguniq
+    - id: multitime
+      name: multitime
     - id: mv
       name: mv
     - id: nasm
       name: nasm
+    - id: ncftp
+      name: ncftp
+    - id: nft
+      name: nft
     - id: nice
       name: nice
     - id: nl
       name: nl
+    - id: nm
+      name: nm
     - id: nmap
       name: nmap
+    - id: node
+      name: node
     - id: nohup
       name: nohup
+    - id: ntpdate
+      name: ntpdate
     - id: od
       name: od
     - id: openssl
       name: openssl
+    - id: openvpn
+      name: openvpn
+    - id: original-awk
+      name: original-awk
+    - id: pandoc
+      name: pandoc
     - id: paste
       name: paste
+    - id: perf
+      name: perf
     - id: perl
       name: perl
+    - id: pexec
+      name: pexec
+    - id: php
+      name: php
     - id: pidstat
       name: pidstat
     - id: pr
@@ -144,22 +273,44 @@ challenges:
       name: ptx
     - id: python
       name: python
+    - id: rc
+      name: rc
+    - id: readelf
+      name: readelf
+    - id: restic
+      name: restic
     - id: rev
       name: rev
+    - id: rlwrap
+      name: rlwrap
     - id: rsync
       name: rsync
+    - id: rtorrent
+      name: rtorrent
     - id: run-parts
       name: run-parts
+    - id: rview
+      name: rview
+    - id: rvim
+      name: rvim
+    - id: sash
+      name: sash
+    - id: scanmem
+      name: scanmem
     - id: sed
       name: sed
     - id: setarch
       name: setarch
     - id: setfacl
       name: setfacl
+    - id: setlock
+      name: setlock
     - id: shuf
       name: shuf
     - id: soelim
       name: soelim
+    - id: softlimit
+      name: softlimit
     - id: sort
       name: sort
     - id: sqlite3
@@ -172,12 +323,22 @@ challenges:
       name: ssh-keygen
     - id: ssh-keyscan
       name: ssh-keyscan
+    - id: sshpass
+      name: sshpass
+    - id: start-stop-daemon
+      name: start-stop-daemon
     - id: stdbuf
       name: stdbuf
     - id: strace
       name: strace
+    - id: strings
+      name: strings
     - id: su
       name: su
+    - id: sysctl
+      name: sysctl
+    - id: systemctl
+      name: systemctl
     - id: tac
       name: tac
     - id: tail
@@ -186,10 +347,16 @@ challenges:
       name: taskset
     - id: tbl
       name: tbl
+    - id: tclsh
+      name: tclsh
     - id: tee
       name: tee
+    - id: tftp
+      name: tftp
     - id: tic
       name: tic
+    - id: time
+      name: time
     - id: timeout
       name: timeout
     - id: troff
@@ -200,12 +367,32 @@ challenges:
       name: unexpand
     - id: uniq
       name: uniq
+    - id: unshare
+      name: unshare
+    - id: unsquashfs
+      name: unsquashfs
     - id: unzip
       name: unzip
     - id: update-alternatives
       name: update-alternatives
+    - id: uudecode
+      name: uudecode
+    - id: uuencode
+      name: uuencode
+    - id: varnishncsa
+      name: varnishncsa
+    - id: view
+      name: view
+    - id: vigr
+      name: vigr
     - id: vim
       name: vim
+    - id: vimdiff
+      name: vimdiff
+    - id: vipw
+      name: vipw
+    - id: w3m
+      name: w3m
     - id: watch
       name: watch
     - id: wc
@@ -216,9 +403,19 @@ challenges:
       name: whiptail
     - id: xargs
       name: xargs
+    - id: xdotool
+      name: xdotool
+    - id: xmodmap
+      name: xmodmap
+    - id: xmore
+      name: xmore
     - id: xxd
       name: xxd
     - id: xz
       name: xz
+    - id: yash
+      name: yash
     - id: zsh
       name: zsh
+    - id: zsoelim
+      name: zsoelim
