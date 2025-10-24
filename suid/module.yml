@@ -188,7 +188,7 @@ challenges:
     - id: ksh
       name: ksh
     - id: ld_so
-      name: ld.so
+      name: ld_so
     - id: less
       name: less
     - id: links
