@@ -229,8 +229,6 @@ challenges:
       name: node
     - id: nohup
       name: nohup
-    - id: ntpdate
-      name: ntpdate
     - id: od
       name: od
     - id: openssl
