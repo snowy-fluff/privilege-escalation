@@ -1,9 +1,0 @@
-#!/bin/bash
-
-rm /challenge/.init
-find -L /challenge -type f -exec chmod 0444 {} +
-
-mkdir -p /challenge/bin
-ln -sf /usr/sbin/dmsetup /challenge/bin/dmsetup
-
-chmod u+s /usr/sbin/dmsetup

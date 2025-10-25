@@ -105,9 +105,6 @@ challenges:
       name: dig
     - id: distcc
       name: distcc
-    - id: dmsetup
-      name: dmsetup
-      privileged: true
     - id: dosbox
       name: dosbox
     - id: ed
