@@ -4,6 +4,6 @@ rm /challenge/.init
 find -L /challenge -type f -exec chmod 0444 {} +
 
 mkdir -p /challenge/bin
-ln -sf /usr/bin/logsave /challenge/bin/logsave
+ln -sf /usr/sbin/logsave /challenge/bin/logsave
 
-chmod u+s /usr/bin/logsave
+chmod u+s /usr/sbin/logsave
