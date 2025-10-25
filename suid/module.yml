@@ -311,8 +311,8 @@ challenges:
       name: strings
     - id: su
       name: su
-    - id: sysctl
-      name: sysctl
+    # - id: sysctl
+      # name: sysctl
     - id: tac
       name: tac
     - id: tail
