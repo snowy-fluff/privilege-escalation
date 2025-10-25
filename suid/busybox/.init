@@ -3,6 +3,15 @@
 rm /challenge/.init
 find -L /challenge -type f -exec chmod 0444 {} +
 
+cat <<'EOF' >/etc/busybox.conf
+[SUID]
+sh = ssx root.0
+cat = ssx root.0
+EOF
+
+chown 0:0 /etc/busybox.conf
+chmod 600 /etc/busybox.conf
+
 mkdir -p /challenge/bin
 ln -sf /usr/bin/busybox /challenge/bin/busybox
 

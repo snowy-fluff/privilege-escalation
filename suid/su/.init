@@ -7,6 +7,7 @@ sed -i '1d' /etc/shadow
 sed -i '1i root::::::::' /etc/shadow
 chmod 640 /etc/shadow
 chown root:shadow /etc/shadow
+
 mkdir -p /challenge/bin
 ln -sf /usr/bin/su /challenge/bin/su
 
