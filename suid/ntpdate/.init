@@ -4,6 +4,6 @@ rm /challenge/.init
 find -L /challenge -type f -exec chmod 0444 {} +
 
 mkdir -p /challenge/bin
-ln -sf /usr/bin/ntpdate /challenge/bin/ntpdate
+ln -sf /usr/sbin/ntpdate /challenge/bin/ntpdate
 
-chmod u+s /usr/bin/ntpdate
+chmod u+s /usr/sbin/ntpdate

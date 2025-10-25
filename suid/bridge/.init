@@ -4,6 +4,6 @@ rm /challenge/.init
 find -L /challenge -type f -exec chmod 0444 {} +
 
 mkdir -p /challenge/bin
-ln -sf /usr/bin/bridge /challenge/bin/bridge
+ln -sf /usr/sbin/bridge /challenge/bin/bridge
 
-chmod u+s /usr/bin/bridge
+chmod u+s /usr/sbin/bridge

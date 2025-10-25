@@ -4,6 +4,6 @@ rm /challenge/.init
 find -L /challenge -type f -exec chmod 0444 {} +
 
 mkdir -p /challenge/bin
-ln -sf /usr/bin/agetty /challenge/bin/agetty
+ln -sf /usr/sbin/agetty /challenge/bin/agetty
 
-chmod u+s /usr/bin/agetty
+chmod u+s /usr/sbin/agetty

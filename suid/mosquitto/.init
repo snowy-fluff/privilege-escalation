@@ -4,6 +4,6 @@ rm /challenge/.init
 find -L /challenge -type f -exec chmod 0444 {} +
 
 mkdir -p /challenge/bin
-ln -sf /usr/bin/mosquitto /challenge/bin/mosquitto
+ln -sf /usr/sbin/mosquitto /challenge/bin/mosquitto
 
-chmod u+s /usr/bin/mosquitto
+chmod u+s /usr/sbin/mosquitto

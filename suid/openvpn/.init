@@ -4,6 +4,6 @@ rm /challenge/.init
 find -L /challenge -type f -exec chmod 0444 {} +
 
 mkdir -p /challenge/bin
-ln -sf /usr/bin/openvpn /challenge/bin/openvpn
+ln -sf /usr/sbin/openvpn /challenge/bin/openvpn
 
-chmod u+s /usr/bin/openvpn
+chmod u+s /usr/sbin/openvpn

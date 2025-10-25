@@ -4,6 +4,6 @@ rm /challenge/.init
 find -L /challenge -type f -exec chmod 0444 {} +
 
 mkdir -p /challenge/bin
-ln -sf /usr/bin/arp /challenge/bin/arp
+ln -sf /usr/sbin/arp /challenge/bin/arp
 
-chmod u+s /usr/bin/arp
+chmod u+s /usr/sbin/arp

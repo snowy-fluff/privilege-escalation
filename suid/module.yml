@@ -39,14 +39,12 @@ challenges:
       name: bash
     - id: batcat
       name: batcat
-    - id: bc
-      name: bc
     - id: bridge
       name: bridge
     - id: busctl
       name: busctl
-    - id: busybox
-      name: busybox
+    # - id: busybox
+      # name: busybox
     - id: bzip2
       name: bzip2
     - id: cabal
@@ -209,12 +207,6 @@ challenges:
       name: more
     - id: mosquitto
       name: mosquitto
-    - id: msgattrib
-      name: msgattrib
-    - id: msgcat
-      name: msgcat
-    - id: msgconv
-      name: msgconv
     - id: msgfilter
       name: msgfilter
     - id: msgmerge
@@ -251,14 +243,10 @@ challenges:
       name: openssl
     - id: openvpn
       name: openvpn
-    - id: original-awk
-      name: original-awk
     - id: pandoc
       name: pandoc
     - id: paste
       name: paste
-    - id: perf
-      name: perf
     - id: perl
       name: perl
     - id: pexec
@@ -289,10 +277,6 @@ challenges:
       name: rtorrent
     - id: run-parts
       name: run-parts
-    - id: rview
-      name: rview
-    - id: rvim
-      name: rvim
     - id: sash
       name: sash
     - id: scanmem
@@ -367,8 +351,6 @@ challenges:
       name: unexpand
     - id: uniq
       name: uniq
-    - id: unshare
-      name: unshare
     - id: unsquashfs
       name: unsquashfs
     - id: unzip
@@ -387,8 +369,6 @@ challenges:
       name: vigr
     - id: vim
       name: vim
-    - id: vimdiff
-      name: vimdiff
     - id: vipw
       name: vipw
     - id: w3m

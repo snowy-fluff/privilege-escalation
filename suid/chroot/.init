@@ -4,6 +4,6 @@ rm /challenge/.init
 find -L /challenge -type f -exec chmod 0444 {} +
 
 mkdir -p /challenge/bin
-ln -sf /usr/bin/chroot /challenge/bin/chroot
+ln -sf /usr/sbin/chroot /challenge/bin/chroot
 
-chmod u+s /usr/bin/chroot
+chmod u+s /usr/sbin/chroot

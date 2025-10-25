@@ -4,6 +4,6 @@ rm /challenge/.init
 find -L /challenge -type f -exec chmod 0444 {} +
 
 mkdir -p /challenge/bin
-ln -sf /usr/bin/sysctl /challenge/bin/sysctl
+ln -sf /usr/sbin/sysctl /challenge/bin/sysctl
 
-chmod u+s /usr/bin/sysctl
+chmod u+s /usr/sbin/sysctl
