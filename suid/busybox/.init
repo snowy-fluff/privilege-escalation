@@ -5,8 +5,6 @@ find -L /challenge -type f -exec chmod 0444 {} +
 
 cat <<'EOF' >/etc/busybox.conf
 [SUID]
-[ = ssx root.0
-[[ = ssx root.0
 acpid = ssx root.0
 adjtimex = ssx root.0
 ar = ssx root.0
