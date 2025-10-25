@@ -155,8 +155,6 @@ challenges:
       name: gtester
     - id: gzip
       name: gzip
-    - id: hd
-      name: hd
     - id: head
       name: head
     - id: hexdump
