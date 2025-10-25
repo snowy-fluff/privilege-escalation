@@ -4,6 +4,6 @@ rm /challenge/.init
 find -L /challenge -type f -exec chmod 0444 {} +
 
 mkdir -p /challenge/bin
-ln -sf /usr/bin/debugfs /challenge/bin/debugfs
+ln -sf /usr/sbin/debugfs /challenge/bin/debugfs
 
-chmod u+s /usr/bin/debugfs
+chmod u+s /usr/sbin/debugfs

@@ -4,6 +4,6 @@ rm /challenge/.init
 find -L /challenge -type f -exec chmod 0444 {} +
 
 mkdir -p /challenge/bin
-ln -sf /usr/bin/capsh /challenge/bin/capsh
+ln -sf /usr/sbin/capsh /challenge/bin/capsh
 
-chmod u+s /usr/bin/capsh
+chmod u+s /usr/sbin/capsh
