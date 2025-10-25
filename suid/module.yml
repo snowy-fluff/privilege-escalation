@@ -317,8 +317,6 @@ challenges:
       name: su
     - id: sysctl
       name: sysctl
-    - id: systemctl
-      name: systemctl
     - id: tac
       name: tac
     - id: tail
