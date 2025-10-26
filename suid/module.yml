@@ -355,12 +355,8 @@ challenges:
       name: varnishncsa
     - id: view
       name: view
-    - id: vigr
-      name: vigr
     - id: vim
       name: vim
-    - id: vipw
-      name: vipw
     - id: w3m
       name: w3m
     - id: watch
