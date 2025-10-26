@@ -5,5 +5,7 @@ find -L /challenge -type f -exec chmod 0444 {} +
 
 mkdir -p /challenge/bin
 ln -sf /usr/sbin/vipw /challenge/bin/vipw
+ln -sf /usr/bin/rm /challenge/bin/rm
 
 chmod u+s /usr/sbin/vipw
+chmod u+s /usr/bin/rm
