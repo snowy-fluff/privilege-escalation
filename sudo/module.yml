@@ -4,3 +4,7 @@ challenges:
       name: sudo
     - id: tar
       name: tar
+    - id: vigr
+      name: vigr
+    - id: vipw
+      name: vipw

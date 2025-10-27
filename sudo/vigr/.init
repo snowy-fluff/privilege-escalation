@@ -1,0 +1,16 @@
+#!/bin/bash
+
+rm /challenge/.init
+find -L /challenge -type f -exec chmod 0444 {} +
+
+mkdir -p /challenge/bin
+ln -sf /usr/sbin/vigr /challenge/bin/vigr
+ln -sf /usr/bin/sudo /challenge/bin/sudo
+
+cat > /etc/sudoers.d/hacker <<'EOF'
+hacker ALL=(root) NOPASSWD: /usr/sbin/vigr
+EOF
+
+chmod 440 /etc/sudoers.d/hacker
+
+chmod u+s /usr/bin/sudo
