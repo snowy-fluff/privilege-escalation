@@ -1,0 +1,1 @@
+Time shattered. Reality froze. The answer bleeds through the ice, distorted. Can you read the dying light?

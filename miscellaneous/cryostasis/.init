@@ -1,0 +1,8 @@
+#!/bin/bash
+
+rm /challenge/.init
+
+cd /challenge
+gcc -s -O0 -fstack-protector-all -fPIE -pie cryostasis.c -o cryostasis
+chmod 4755 /challenge/cryostasis
+rm /challenge/cryostasis.c

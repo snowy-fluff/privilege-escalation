@@ -1,2 +1,4 @@
 name: Miscellaneous
 challenges:
+    - id: cryostasis
+      name: Cryostasis
