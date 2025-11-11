@@ -1,0 +1,4 @@
+name: CVEs
+challenges:
+    - id: CVE-2025-32463
+      name: cve-2025-32463
