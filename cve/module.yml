@@ -1,5 +1,8 @@
 name: CVEs
 challenges:
+    - id: cve-2023-22809
+      name: CVE-2023-22809
+      image: pwmcollege/challenge-cve-2023-22809
     - id: cve-2025-32463
       name: CVE-2025-32463
       image: pwmcollege/challenge-cve-2025-32463
