@@ -1,5 +1,8 @@
 name: CVEs
 challenges:
+    - id: cve-2021-3156
+      name: CVE-2021-3156
+      image: pwmcollege/challenge-cve-2021-3156
     - id: cve-2023-22809
       name: CVE-2023-22809
       image: pwmcollege/challenge-cve-2023-22809
