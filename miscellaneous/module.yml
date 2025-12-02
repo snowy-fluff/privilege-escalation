@@ -1,4 +1,7 @@
 name: Miscellaneous
 challenges:
+    - id: the-early-bird
+      name: The Early Bird
+      image: pwmcollege/challenge-web
     - id: cryostasis
       name: Cryostasis
