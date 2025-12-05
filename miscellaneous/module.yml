@@ -3,5 +3,7 @@ challenges:
     - id: the-early-bird
       name: The Early Bird
       image: pwmcollege/challenge-web
+      required: false
     - id: cryostasis
       name: Cryostasis
+      required: false
