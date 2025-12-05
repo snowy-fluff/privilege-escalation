@@ -9,3 +9,9 @@ challenges:
     - id: cve-2025-32463
       name: CVE-2025-32463
       image: pwmcollege/challenge-cve-2025-32463
+    - id: cve-2025-55182
+      name: CVE-2025-55182
+      image: pwmcollege/challenge-cve-2025-55182
+      interfaces:
+        - name: Challenge
+          port: 80
